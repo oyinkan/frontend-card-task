@@ -14,26 +14,26 @@
   <body>
     <main>
       <div class="card">
-        <div class="card-header">
+        <div class="card__image-wrapper">
           <picture>
             <source media="(max-width: 576px)" srcset="images/card-image-mobile.svg">
             <source media="(min-width: 577px)" srcset="images/card-image.svg">
-            <img srcset="images/card-image.svg" class="img-responsive" alt="A lady singer on set">
+            <img srcset="images/card-image.svg" class="img-responsive card__image" alt="A lady singer on set">
           </picture>
         </div>
-        <div class="card-body">
+        <div class="card__body">
           <img src="images/ellipse.svg" class="img-responsive ellipse" alt="a yellow lighter">
-          <h4>
+          <h4 class="card__heading">
             <a href="#">
               Link heading 
               <img src="images/arrow-right.svg" alt="arrow right icon">
             </a>
           </h4>
-          <div class="card-timeline">
+          <div class="card__timeline">
             <img src="images/clock.svg" alt="clock icon">
             <span>3 minute read</span>
           </div>
-          <p>Paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit vel nec morbi amit fermentum in enim tempus accumsan.</p>
+          <p class="card__details">Paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit vel nec morbi amit fermentum in enim tempus accumsan.</p>
         </div>
       </div>
       <div class="outer-card"></div>
