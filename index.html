@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Frontend Card Task</title>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <div class="card-header">
+          <picture>
+            <source media="(max-width: 576px)" srcset="images/card-image-mobile.svg">
+            <source media="(min-width: 577px)" srcset="images/card-image.svg">
+            <img srcset="images/card-image.svg" class="img-responsive" alt="A lady singer on set">
+          </picture>
+        </div>
+        <div class="card-body">
+          <img src="images/ellipse.svg" class="img-responsive ellipse" alt="a yellow lighter">
+          <h4>
+            <a href="#">
+              Link heading 
+              <img src="images/arrow-right.svg" alt="arrow right icon">
+            </a>
+          </h4>
+          <div class="card-timeline">
+            <img src="images/clock.svg" alt="clock icon">
+            <span>3 minute read</span>
+          </div>
+          <p>Paragraph lorem ipsum dolor sit amet, consectetur adipiscing elit vel nec morbi amit fermentum in enim tempus accumsan.</p>
+        </div>
+      </div>
+      <div class="outer-card"></div>
+    </main>
+  </body>
+</html>
